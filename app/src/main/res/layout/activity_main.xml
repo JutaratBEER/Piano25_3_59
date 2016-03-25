@@ -22,7 +22,7 @@
             android:id="@+id/textView"
             android:gravity="center"
             android:background="#3cffffff"
-            android:textSize="40dp" />
+            android:textSize="45dp" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -30,14 +30,60 @@
             android:layout_height="match_parent">
 
             <Button
-                android:layout_width="50dp"
+                android:layout_width="113dp"
                 android:layout_height="match_parent"
-                android:id="@+id/button" />
+                android:id="@+id/button"
+                android:text="DO"
+                android:textSize="@dimen/sixe" />
 
             <Button
-                android:layout_width="50dp"
+                android:layout_width="113dp"
                 android:layout_height="match_parent"
-                android:id="@+id/button2" />
+                android:id="@+id/button2"
+                android:text="RE"
+                android:textSize="@dimen/sixe" />
+
+            <Button
+                android:layout_width="113dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button3"
+                android:text="MI"
+                android:textSize="@dimen/sixe" />
+
+            <Button
+                android:layout_width="113dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button4"
+                android:text="FA"
+                android:textSize="@dimen/sixe" />
+
+            <Button
+                android:layout_width="113dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button5"
+                android:text="SOL"
+                android:textSize="@dimen/sixe" />
+
+            <Button
+                android:layout_width="113dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button6"
+                android:text="LA"
+                android:textSize="@dimen/sixe" />
+
+            <Button
+                android:layout_width="113dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button7"
+                android:text="SI"
+                android:textSize="@dimen/sixe" />
+
+            <Button
+                android:layout_width="113dp"
+                android:layout_height="match_parent"
+                android:id="@+id/button8"
+                android:text="DO"
+                android:textSize="@dimen/sixe" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
