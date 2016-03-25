@@ -21,8 +21,9 @@
             android:text="@string/app_name"
             android:id="@+id/textView"
             android:gravity="center"
-            android:background="#3cffffff"
-            android:textSize="45dp" />
+            android:background="#8c060606"
+            android:textSize="45dp"
+            android:textColor="#fefefe" />
 
         <LinearLayout
             android:orientation="horizontal"
@@ -34,56 +35,64 @@
                 android:layout_height="match_parent"
                 android:id="@+id/button"
                 android:text="DO"
-                android:textSize="@dimen/sixe" />
+                android:textSize="@dimen/sixe"
+                android:background="#ab23f9" />
 
             <Button
                 android:layout_width="113dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button2"
                 android:text="RE"
-                android:textSize="@dimen/sixe" />
+                android:textSize="@dimen/sixe"
+                android:background="#cf3ae3" />
 
             <Button
                 android:layout_width="113dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button3"
                 android:text="MI"
-                android:textSize="@dimen/sixe" />
+                android:textSize="@dimen/sixe"
+                android:background="#eb49e3" />
 
             <Button
                 android:layout_width="113dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button4"
                 android:text="FA"
-                android:textSize="@dimen/sixe" />
+                android:textSize="@dimen/sixe"
+                android:background="#de4ab6" />
 
             <Button
                 android:layout_width="113dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button5"
                 android:text="SOL"
-                android:textSize="@dimen/sixe" />
+                android:textSize="@dimen/sixe"
+                android:background="#d53a8f" />
 
             <Button
                 android:layout_width="113dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button6"
                 android:text="LA"
-                android:textSize="@dimen/sixe" />
+                android:textSize="@dimen/sixe"
+                android:background="#e72777" />
 
             <Button
                 android:layout_width="113dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button7"
                 android:text="SI"
-                android:textSize="@dimen/sixe" />
+                android:textSize="@dimen/sixe"
+                android:background="#fc2e76" />
 
             <Button
                 android:layout_width="113dp"
                 android:layout_height="match_parent"
                 android:id="@+id/button8"
                 android:text="DO"
-                android:textSize="@dimen/sixe" />
+                android:textSize="@dimen/sixe"
+                android:background="#f41353" />
         </LinearLayout>
     </LinearLayout>
 </RelativeLayout>
